@@ -2,6 +2,8 @@
 
 Drive up to 3 chains of HUB75 type RGB LED Matrix panels in parallel with the LED matrix driver HAT from Footleg Robotics.
 
+![LED matrix driver HAT, top view](/img/LEDMatrixHAT.png)
+
 Supports HUB75 panels with the E address line (64 x 64 RGB LEDs).
 Drives the LED panels with 5V logic for reliable signals.
 Running all 3 channels requires all the GPIO pins on the Raspberry Pi. Alternatively, 2 channels can be used for driving LED panels, leaving the I2C and SPI pins available to connect additional devices, via JSH-PH connectors on the HAT. Channel 3 can be disabled with a solder jumper in case the level shifter interferes with I2C.
